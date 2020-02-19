@@ -1,3 +1,4 @@
+function tablas(){
 let members = data.results[0].members
 let stats= {
 	d_total: total("D").length,
@@ -39,3 +40,4 @@ if (boolean=true){
    return result
 }
 console.log(most(members,"votes_with_party_pct",true))
+}
